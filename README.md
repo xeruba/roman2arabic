@@ -9,8 +9,8 @@ Ensure that [Docker is installed](https://docs.docker.com/get-started/) and up t
 ## Installation
 
 ```sh
-git clone https://github.com/xeruba/roman-arabic.git roman-arabic
-cd roman-arabic
+git clone https://github.com/xeruba/roman2arabic.git roman2arabic
+cd roman2arabic
 mv .env.example .env
 docker run --rm \
     -u "$(id -u):$(id -g)" \
