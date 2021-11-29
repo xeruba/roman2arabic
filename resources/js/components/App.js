@@ -10,12 +10,11 @@ function App(props) {
 
     const onClickHandler = (e) => {
         e.preventDefault();
-        console.log(input);
+
         axios.post('/api/convert', {
                 'roman': input
             })
             .then(response => {
-                console.log(response);
                 setResult('Arabic: ' + response.data.arabic);
                 setClassMessage('success');
             })
