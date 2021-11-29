@@ -28,7 +28,7 @@ Open your browser and go to http://localhost
 ## Testing the API
 To test the api you just have to run:
 ```sh
-./vendor/bin/sail php artisan test
+./vendor/bin/sail php artisan test --filter ConversionsTest
 ```
 If you want to change the test cases, just go to roman-arabic/tests/Feature/ConversionsTest.php, and update the array on the line 13.
 
