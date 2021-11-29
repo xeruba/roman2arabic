@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.roman {
+    text-decoration: overline;
+    font-family: Times, serif;
+    font-size: 1.2em;
+}
