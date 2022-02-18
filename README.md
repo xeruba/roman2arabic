@@ -35,6 +35,8 @@ If you want to change the test cases, just go to roman-arabic/tests/Feature/Conv
 ## Interface
 ![Interface](https://drive.google.com/uc?id=1i7aYJSgi3JgLcy6MDzhH6vaYULQ9zoul)
 
+## Supervisord
+https://medium.com/@nicolas.sherman1/running-scheduled-jobs-in-laravel-sail-using-supervisord-a012cf533585
 
 ## License
 
